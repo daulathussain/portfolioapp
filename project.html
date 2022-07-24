@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <!-- icon -->
+
+    <!-- Google fonts End -->
+
+    <!-- custon style Sheet & JavaScript -->
+    <link rel="stylesheet" href="project.css" />
+    <script src="project.js" defer></script>
+    <link rel="stylesheet" href="home.css" />
+    <script src="home.js" defer></script>
+    <!-- custon style Sheet & JavaScript -->
+    <title>Portfolio Website</title>
+  </head>
+  <body class="home">
+    <header class="primary-header container flex">
+      <div class="logo flex">
+        <div>
+          <h1 class="fs-poppins text-black-3 fs-300">Chris Wicks</h1>
+        </div>
+        <div>
+          <h1 class="line fs-montserrat text-black-3 bold-400 fs-100">
+            Comedian Youtube
+          </h1>
+        </div>
+      </div>
+      <div>
+        <ul class="primary-navigation flex">
+          <li>
+            <a class="fs-poppins text-black-3 bold-700" href="#">Home</a>
+            <span data-tooltip="Home"><i class="uil uil-estate"></i></span>
+          </li>
+
+          <li>
+            <a class="fs-poppins text-black-3 bold-700" href="#">Project</a>
+            <span data-tooltip="About"><i class="uil uil-user"></i></span>
+          </li>
+          <li>
+            <a class="fs-poppins text-black-3 bold-700" href="#">Video</a>
+            <span data-tooltip="YouTube"><i class="uil uil-youtube"></i></span>
+          </li>
+          <li>
+            <a class="fs-poppins text-black-3 bold-700" href="#">Contact</a>
+            <span data-tooltip="Email"
+              ><i class="uil uil-envelope-minus"></i
+            ></span>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <section class="project-section container">{%PROJECT_CARDS%}</section>
+
+    <!-- ============Footer Section==================== -->
+
+    <footer class="footer">
+      <div class="inner-footer grid">
+        <div>
+          <h3 class="fs-poppins text-white fs-300 bold-700">
+            Join Instantly With $0 Down And Get Your Video Right Now.
+          </h3>
+        </div>
+        <div>
+          <button class="bg-light-yellow fs-200 bold-700 text-white">
+            Get Started
+          </button>
+        </div>
+      </div>
+
+      <div class="footer-navigation grid">
+        <div>
+          <h3 class="fs-poppins fs-200 bold-700 text-white">LINKS</h3>
+          <ul class="nav-footer grid">
+            <li>
+              <a class="fs-poppins fs-100 bold-500 text-white" href="#">Home</a>
+            </li>
+            <li>
+              <a class="fs-poppins fs-100 bold-500 text-white" href="#"
+                >About</a
+              >
+            </li>
+            <li>
+              <a class="fs-poppins fs-100 bold-500 text-white" href="#"
+                >Contact</a
+              >
+            </li>
+            <li>
+              <a class="fs-poppins fs-100 bold-500 text-white" href="#"
+                >Video</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="fs-poppins fs-200 bold-700 text-white">YOUTUBE</h3>
+          <ul class="nav-footer grid">
+            <li>
+              <a class="fs-poppins fs-100 bold-500 text-white" href="#">Home</a>
+            </li>
+            <li>
+              <a class="fs-poppins fs-100 bold-500 text-white" href="#"
+                >About</a
+              >
+            </li>
+            <li>
+              <a class="fs-poppins fs-100 bold-500 text-white" href="#"
+                >Contact</a
+              >
+            </li>
+            <li>
+              <a class="fs-poppins fs-100 bold-500 text-white" href="#"
+                >Video</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="fs-poppins fs-200 bold-700 text-white">HELP CENTER</h3>
+          <ul class="nav-footer grid">
+            <li>
+              <a class="fs-poppins fs-100 bold-500 text-white" href="#"
+                >Privacy & Policy</a
+              >
+            </li>
+            <li>
+              <a class="fs-poppins fs-100 bold-500 text-white" href="#"
+                >Term & Condition
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="lower-section grid">
+        <h3 class="fs-poppins fs-200 bold-700 text-white">
+          SUBSCRIBE AND WATCH MORE
+        </h3>
+        <p class="fs-montserrat text-white fs-100">
+          we’ll reach out over email to set up a call
+        </p>
+
+        <div class="input-field flex">
+          <input type="email" placeholder="Email Address" />
+          <div>
+            <img src="/image/10032.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <section class="copy-right grid">
+      <div class="flex logo-img">
+        <img src="/image/logo.png" alt="" />
+      </div>
+      <div>
+        <p class="fs-montserrat text-white">
+          © 2022 Influencer Blog - Phlox Elementor WordPress Theme . All rights
+          reserved.
+        </p>
+      </div>
+      <div class="flex footer-icon">
+        <span><i class="uil text-white uil-facebook-f"></i></span>
+        <span><i class="uil text-white uil-twitter"></i></span>
+        <span><i class="uil text-white uil-linkedin"></i></span>
+        <span><i class="uil text-white uil-instagram-alt"></i></span>
+      </div>
+    </section>
+  </body>
+</html>

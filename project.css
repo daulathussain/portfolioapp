@@ -1,0 +1,34 @@
+.project-section {
+  grid-auto-columns: 1fr;
+  margin-block: 2rem;
+  place-items: center;
+  display: grid;
+  gap: 5rem;
+  grid-template-areas:
+    "one"
+    "two";
+}
+
+.project-section:nth-child(1) {
+  grid-area: one;
+}
+.project-section:nth-child(2) {
+  grid-area: two;
+}
+
+.project {
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 55em) {
+  .project-section {
+    gap: 2rem;
+    grid-template-areas: "one two";
+  }
+  .project {
+    width: 90%;
+  }
+  .project img {
+    width: 100%;
+  }
+}
